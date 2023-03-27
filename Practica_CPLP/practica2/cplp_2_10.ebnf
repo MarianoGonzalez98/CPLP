@@ -1,0 +1,16 @@
+G = {N, T , S, P}
+N = { <real>, <digito> , <palabra>, <char>, <operador>, <operando>} 
+T = {0,1,2..9,A,B,C..Z,+,-.*,/}
+S = <expr>
+
+P={
+
+
+    <expr>::= <operando>{<operador><operando>}*
+    <operando> ::= <real> | <palabra>
+    <real> ::= {<digito>}+ [ . {<digito>}+]
+    <digito> ::= 0 | 1 | 2 | ... | 9
+    <variable> ::= <char>{ <char> | <digito>}*
+    <char> ::= A | B | C | ... | Z 
+    <operador> ::= + | - | * | /
+}

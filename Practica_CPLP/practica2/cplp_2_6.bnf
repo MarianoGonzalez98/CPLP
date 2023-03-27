@@ -1,0 +1,9 @@
+G = {N, T , S, P}
+N = { <palabra>, <char> } 
+T = {A, B, C ,D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z}
+S = <palabra>
+
+P={
+    <palabra> ::= <char> | <char><palabra>
+    <char> ::= A | B | C  |D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z
+}
