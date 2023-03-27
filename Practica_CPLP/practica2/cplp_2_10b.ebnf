@@ -1,0 +1,25 @@
+G = {N, T , S, P}
+N = { <expresion> , <exprPri>, <real>, <digito> , <palabra>, <char>, <operadorPrio>,<operadorNoPri>, <operando>} 
+T = {0,1,2..9,A,B,C..Z,+,-.*,/}
+S = <expresion>
+
+P={
+
+    <expresion>::= <exprPri>{<operadorNoPri><exprPri>}*
+    <exprPri>::= <operando>{<operadorPrio><operando>}*
+
+    <operando> ::= <real> | <palabra>
+
+    <operadorPrio> ::=  * | /
+    <operadorNoPri> ::= + | - 
+
+    <real> ::= {<digito>}+ [ . {<digito>}+]
+    <digito> ::= 0 | 1 | 2 | ... | 9
+    <variable> ::= <char>{ <char> | <digito>}*
+    <char> ::= A | B | C | ... | Z 
+
+}
+
+(*
+ 
+  *)
