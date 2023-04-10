@@ -1,0 +1,32 @@
+Ejercicio 1)a)
+
+
+Ejercicio 1)b)
+
+Ejercicio 2)a)
+
+Ejercicio 2)b)
+
+
+
+
+Ejercicio 3)a)
+Ejercicio 3)b)
+Ejercicio 3)c)
+Ejercicio 3)d)
+
+
+Ejercicio 4)a)
+Variable estática: se liga en el momento de la compilación. Se las llaman variables sensibles a la historia. Se coloca el tiempo de vida entre tags.
+Variable automática: la variable que se aloca cuando se aloca la unidad que lo define. Ej las variables dentro de una función.
+Variable dinámica: se aloca en ejecución por decision del programador (new). Por ejemplo las variables apuntadas por los punteros.
+???Variable semidinámica: arreglo que no se sabe hasta el momento de la ejecucion el tamaño, entonces ada reserva una parte de la memoria en compilacion y otra parte (los datos) en ejecución
+
+Variable 
+
+Ejercicio 4)b)
+Ejercicio 4)c)
+Ejercicio 4)d)
+
+Ejercicio 5)a)
+Ejercicio 5)b)
