@@ -1,14 +1,25 @@
 Ejercicio 1)a)
 
+id = a, Lvalor = automática, Rvalor = 0?, Alcance = 4-16, Tvida = 1-16
 
 Ejercicio 1)b)
 
+id = p , Lvalor = automatico, Rvalor = indefinida?, Alcance = 5-16, Tvida = 1-16
+id = p^ , Lvalor = dinamico, Rvalor = basura, Alcance = ??, Tvida = 7,15 
+
+
 Ejercicio 2)a)
+No inicializarla (ignorar el problema): lo que haya en memoria
+Inicializarla por defecto: por ejemplo enteros con 0, string con ""
+Inicializarla en la misma declaración: int i = 1;
 
 Ejercicio 2)b)
 
+Declaracion sin inicializar explicitamente: en java si es variable global.
+Declaración e inicialización de una variable en diferentes línes:
+Declaración e inicialización de una variable en la misma línea:
 
-
+python no tiene un comando para declarar una variable. Es declarada al momento de asignarle un valor.
 
 Ejercicio 3)a)
 Ejercicio 3)b)
