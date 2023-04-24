@@ -15,9 +15,9 @@ Inicializarla en la misma declaración: int i = 1;
 
 Ejercicio 2)b)
 
-Declaracion sin inicializar explicitamente: en java si es variable global.
-Declaración e inicialización de una variable en diferentes línes:
-Declaración e inicialización de una variable en la misma línea:
+Declaracion sin inicializar explicitamente: en java si es variable global(estatica). C globales y estaticas,local impredecible.
+Declaración e inicialización de una variable en diferentes línes: java.c.
+Declaración e inicialización de una variable en la misma línea: java. c. python. 
 
 python no tiene un comando para declarar una variable. Es declarada al momento de asignarle un valor.
 
